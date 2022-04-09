@@ -1,0 +1,475 @@
+# Translation of Themes - Twenty Fourteen in Tamil
+# This file is distributed under the same license as the Themes - Twenty Fourteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-01 19:51:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ta_IN\n"
+"Project-Id-Version: Themes - Twenty Fourteen\n"
+
+#. Description of the theme
+msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
+msgstr "2014 இல், எங்கள் இயல்புநிலை தீம், நீங்கள் ஒரு மெல்லிய, நவீன வடிவமைப்பு கொண்ட பத்திரிகை இணையதளம் உருவாக்க முடியும். ஒரு கட்டம் அல்லது ஒரு ஸ்லைடர் அல்லது உங்களுக்கு பிடித்த முகப்பு உள்ளடக்கத்தை காண்பிக்க முடியும். உங்கள் வலைத்தளத்தில் விருப்பப்படி மாற்றிட மூன்று விட்ஜெட் பகுதிகளும், உங்கள் ஆசிரியர்களை காட்ட ஒரு முழு அகல பக்க வார்ப்புரு மற்றும் ஒரு பங்களிப்பாளர் பக்கமும் உள்ளன.வேர்ட்பிரஸ் மூலம் ஒரு பத்திரிகை இணையதளம் உருவாக்க இது போல் எளிதாக இருந்ததில்லை."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20 inc/customizer.php:162
+msgid "Twenty Fourteen"
+msgstr "இருபது பதினான்கு"
+
+#: functions.php:112
+msgid "White"
+msgstr "வெள்ளை"
+
+#: functions.php:92
+msgid "Black"
+msgstr "கறுப்பு"
+
+#: functions.php:87
+msgid "Green"
+msgstr "பச்சை"
+
+#: functions.php:102
+msgid "Medium Gray"
+msgstr "இடைத்தர சாம்பல்"
+
+#: functions.php:97
+msgid "Dark Gray"
+msgstr "கரும் சாம்பல்"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "முழு அகலப் பக்கம்"
+
+#. Template Name of the theme
+msgid "Contributor Page"
+msgstr "பங்களிப்பவர் பக்கம்"
+
+#. translators: %s: Tag title.
+#: tag.php:25
+msgid "Tag Archives: %s"
+msgstr "குறிச்சொல் காப்பகங்கள்: %s"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "தேடல் முடிவுகள்: %s"
+
+#: inc/widgets.php:305
+msgid "Post format to show:"
+msgstr "காட்டவேன்டிய இடுகை வடிவம்:"
+
+#: inc/widgets.php:302
+msgid "Number of posts to show:"
+msgstr "காண்பிக்க வேண்டிய  பதிவுகள் எண்ணிக்கை:"
+
+#: inc/widgets.php:299
+msgid "Title:"
+msgstr "தலைப்பு:"
+
+#. translators: Used with More archives link.
+#: inc/widgets.php:243
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: Post permalink, 2: Number of images in the gallery.
+#: inc/widgets.php:198
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] "இந்த காட்சிக்கூடத்தில் <a href=\"%1$s\" rel=\"bookmark\">%2$ புகைப்படம்</a> உள்ளன."
+msgstr[1] "இந்த காட்சிக்கூடத்தில் <a href=\"%1$s\" rel=\"bookmark\">%2$ புகைப்படங்கள்</a>  உள்ளன. "
+
+#: inc/widgets.php:158 inc/widgets.php:208
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr " தொடர்ந்து வாசிக்க   <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/widgets.php:108
+msgid "More asides"
+msgstr "மேலும் சிறுபதிவுகள் "
+
+#: inc/widgets.php:107 taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "தொகுப்பு"
+
+#: inc/widgets.php:103
+msgid "More galleries"
+msgstr "மேலும் காட்சியகங்கள்"
+
+#: inc/widgets.php:102 taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "காட்சியகங்கள்"
+
+#: inc/widgets.php:99
+msgid "More links"
+msgstr "மேலும் இணைப்புகள்"
+
+#: inc/widgets.php:95
+msgid "More quotes"
+msgstr "மேலும் மேற்கோள்கள்"
+
+#: inc/widgets.php:98 taxonomy-post_format.php:45
+msgid "Links"
+msgstr "இணைப்புகள்"
+
+#: inc/widgets.php:94 taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "மேற்கோள்கள்"
+
+#: inc/widgets.php:91
+msgid "More audio"
+msgstr "மேலும் ஆடியோ"
+
+#: inc/widgets.php:90 taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "ஆடியோ"
+
+#: inc/widgets.php:87
+msgid "More videos"
+msgstr "மேலும் வீடியோக்கள்"
+
+#: inc/widgets.php:86 taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "வீடியோக்கள்"
+
+#: inc/widgets.php:83
+msgid "More images"
+msgstr "மேலும் படங்கள்"
+
+#: inc/widgets.php:82 taxonomy-post_format.php:33
+msgid "Images"
+msgstr "படங்கள்"
+
+#: inc/widgets.php:38
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr "வீடியோ, ஆடியோ, படம், புகைப்படங்கள், மற்றும் இணைப்பு இடுகைகள் உங்கள் பட்டியலிட இந்த விட்ஜெட்டை பயன்படுத்தவும்."
+
+#: inc/widgets.php:35
+msgid "Twenty Fourteen Ephemera"
+msgstr "இருபது பதினான்கு குறுகிய கால வாழ்க்கை உடைய பொருள்"
+
+#: inc/template-tags.php:111
+msgid "Sticky"
+msgstr "ஒட்டக்கூடிய"
+
+#: inc/template-tags.php:94
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\"> அடுத்த படம்</span>%title"
+
+#: inc/template-tags.php:93
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">முந்தைய பதிவு </span>%title"
+
+#: inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\"> இல் வெளியிடப்பட்டது </span>%title"
+
+#: inc/template-tags.php:87
+msgid "Post navigation"
+msgstr "  இடுகைகள் வழிசெலுத்தல்"
+
+#: inc/template-tags.php:60
+msgid "Posts navigation"
+msgstr "பதிவுகள் வழிசெலுத்தல்"
+
+#: inc/template-tags.php:52
+msgid "Next &rarr;"
+msgstr "அடுத்து &rarr;"
+
+#: inc/template-tags.php:51
+msgid "&larr; Previous"
+msgstr "&larr; முந்தைய"
+
+#: inc/featured-content.php:423
+msgid "Don&rsquo;t display tag on front end."
+msgstr "குறிச்சொல் காண்பிக்க வேண்டாம்."
+
+#: inc/featured-content.php:415
+msgid "Tag Name"
+msgstr "குறிச்சொல் பெயர்"
+
+#. translators: %s: Twenty Fourteen documentation URL.
+#: inc/customizer.php:170
+msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
+msgstr "ஒரு ஆழமான பயிற்சிக்கு, மேலும் குறிப்புகள் மற்றும் தந்திரங்களை அறிய, <a href=\"%s\"> இருபது பதினான்கு ஆவணங்களை </a> காண்க."
+
+#. translators: %s: Featured images documentation URL.
+#: inc/customizer.php:168
+msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+msgstr " உங்கள் தளத்தின் வடிவமைப்பை மேம்படுத்த, <a href=\"%s\">சிறப்பு படங்கள்</a>  பயன்படுத்தி பதிவுகளை தணித்து தெரியச்செய்யலாம் (பதிவு சிறு உருவங்கள  எனவும்  அழைக்கப்படும்). நீங்கள் படத்தை சேர்க்காமல் பதிவுடன் தொடர்பு படுத்த முடியும்.  இருபது பதினான்கு, பதிவுகள் மற்றும் தலைப்பு மற்றும் பக்கங்கள் முகப்பு பக்கத்திலும் சிறப்பு உள்ளடக்க பகுதியிலும் தலைப்புகளுக்கு மேலும் சிறப்பு படங்களை பயன்படுத்துகிறது."
+
+#: inc/customizer.php:90
+msgid "Slider"
+msgstr "ஸ்லைடர்"
+
+#: inc/customizer.php:89
+msgid "Grid"
+msgstr "கட்டம்"
+
+#: inc/customizer.php:85
+msgid "Layout"
+msgstr "வடிவமைப்பு"
+
+#. translators: 1: Featured tag editor URL, 2: Post editor URL, 3: Customizer
+#. URL, 4: Post editor URL.
+#: inc/customizer.php:65 inc/customizer.php:166 inc/featured-content.php:385
+#: inc/featured-content.php:397 inc/featured-content.php:463
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr "இடம்பெற்றது"
+
+#. translators: 1: Featured tag editor URL, 2: Post editor URL.
+#: inc/customizer.php:64 inc/featured-content.php:384
+msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr "உங்கள் பதிவுகள் இடம்பெற ஒரு <a href=\"%1$s\"> குறிச்சொல் </a> பயன்படுத்தவும்.  குறிச்சொல் பொருந்தும் இடுகைகள் இல்லை என்றால், மிக <a href=\"%2$s\"> ஒட்டும் பதிவுகள் </a> காட்டப்படும்."
+
+#: inc/customizer.php:61 inc/featured-content.php:381
+msgid "Featured Content"
+msgstr "இடம்பெற்றுள்ள உள்ளடக்கம்"
+
+#: inc/customizer.php:50 inc/customizer.php:51
+msgid "May only be visible on wide screens."
+msgstr "பரந்த திரைகளில் மட்டுமே தெரியக்கூடும்."
+
+#: inc/customizer.php:53 inc/customizer.php:54
+msgid "Background may only be visible on wide screens."
+msgstr "பின்னணி  பரந்த திரைகளில் மட்டுமே காணலாம்."
+
+#: inc/customizer.php:46
+msgid "Display Site Title &amp; Tagline"
+msgstr "தள தலைப்பு &amp  & கோஷம் காட்ட "
+
+#: inc/customizer.php:43
+msgid "Site Title Color"
+msgstr "தள தலைப்பு வண்ணம்"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "இருபது பதினான்கிற்கு குறைந்தது வேர்ட்பிரஸ் பதிப்பு 3.6 தேவைப்படுகிறது. நீங்கள் பதிப்பு %s ஐ இயக்குகின்றீர்கள். மேம்படுத்தி மீண்டும் முயற்சிக்கவும்."
+
+#: image.php:69
+msgid "Next Image"
+msgstr "அடுத்த படம்"
+
+#: image.php:68
+msgid "Previous Image"
+msgstr "முந்தைய படம்"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "உள்ளடக்கத்திற்கு செல்க"
+
+#: header.php:53
+msgid "Primary Menu"
+msgstr "முதன்மை பட்டி"
+
+#: header.php:49
+msgid "Search"
+msgstr "தேடுக"
+
+#. translators: %s: Page number.
+#: functions.php:659
+msgid "Page %s"
+msgstr "பக்கம் %s"
+
+#. translators: %d: Post count.
+#: functions.php:538
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] " %d கட்டுரை"
+msgstr[1] " %d கட்டுரைகள்"
+
+#: functions.php:362
+msgid "Next"
+msgstr "அடுத்து "
+
+#: functions.php:361
+msgid "Previous"
+msgstr "முந்தைய"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:309
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "ஆம்"
+
+#: functions.php:286
+msgid "Appears in the footer section of the site."
+msgstr "தளத்தின் முடிப்பு பிரிவில் தோன்றுகிறது."
+
+#: functions.php:284
+msgid "Footer Widget Area"
+msgstr "அடிப்பாகம் சாளரம் பகுதி"
+
+#: functions.php:275
+msgid "Additional sidebar that appears on the right."
+msgstr "வலதுபுறம் தோன்றும் கூடுதல் பக்கப்பட்டியில்."
+
+#: functions.php:273
+msgid "Content Sidebar"
+msgstr "உள்ளடக்க பக்கப்பட்டி"
+
+#: functions.php:264
+msgid "Main sidebar that appears on the left."
+msgstr "இடது புறம் தோன்றும் என்று முக்கிய பக்கப்பட்டியில்."
+
+#: functions.php:262
+msgid "Primary Sidebar"
+msgstr "முதன்மை பக்கப்பட்டி"
+
+#: functions.php:131
+msgid "Secondary menu in left sidebar"
+msgstr "இடது பக்கப்பட்டியின் இரண்டாம் பட்டி"
+
+#: functions.php:130
+msgid "Top primary menu"
+msgstr "மேல் முதன்மை பட்டி"
+
+#. translators: %s: WordPress
+#: footer.php:29
+msgid "Proudly powered by %s"
+msgstr "பெருமையுடன் %s மூலம் இயக்கப்படுகிறது"
+
+#: content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "நீங்கள் காணவந்த பக்கத்தை கண்டுபிடிக்க முடியவில்லை போல் தெரிகிறது. ஒருவேளை தேடல் உதவலாம்"
+
+#: content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "மன்னிக்கவும், உங்கள் தேடல் சொற்கள் பொருந்தும் எதுவும் கிடைக்கவில்லை . சில வேறு முக்கிய வார்த்தைகளை கொண்டு மீண்டும் முயற்சி செய்க."
+
+#. translators: %s: Post editor URL.
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "உங்களது முதல் பதிவு வெளியிட தயாரா? <a href=\"%s\">இங்கு தொடங்கவும்</a> "
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "எதுவும் காணப்படவில்லை"
+
+#: content-aside.php:56 content-audio.php:56 content-gallery.php:56
+#: content-image.php:56 content-link.php:56 content-page.php:23
+#: content-quote.php:56 content-video.php:56 content.php:65 image.php:56
+msgid "Pages:"
+msgstr "பக்கங்கள்:"
+
+#. translators: %s: Post title.
+#: content-aside.php:49 content-audio.php:49 content-gallery.php:49
+#: content-image.php:49 content-link.php:49 content-quote.php:49
+#: content-video.php:49 content.php:58 inc/template-tags.php:230
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s ஐ தொடர்ந்து படிக்க <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:40 content-audio.php:40 content-gallery.php:40
+#: content-image.php:40 content-link.php:40 content-page.php:30
+#: content-quote.php:40 content-video.php:40 content.php:43 image.php:35
+#: page-templates/contributors.php:36
+msgid "Edit"
+msgstr "தொகுக்க"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:39 inc/widgets.php:231
+msgid "% Comments"
+msgstr "% கருத்துகள்"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:39 inc/widgets.php:231
+msgid "1 Comment"
+msgstr "1 கருத்து"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:39 inc/widgets.php:231
+msgid "Leave a comment"
+msgstr "உங்கள் கருத்துக்களை பகிர்ந்துகொள்ளவும்"
+
+#: content-aside.php:17 content-audio.php:17 content-featured-post.php:28
+#: content-gallery.php:17 content-image.php:17 content-link.php:17
+#: content-quote.php:17 content-video.php:17 content.php:19
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr " கருத்துக்கள் மூடப்பட்டது"
+
+#: comments.php:52 comments.php:72
+msgid "Newer Comments &rarr;"
+msgstr "புதிய கருத்துக்கள் &rarr;"
+
+#: comments.php:51 comments.php:71
+msgid "&larr; Older Comments"
+msgstr "&larr; பழைய கருத்துகள்"
+
+#: comments.php:50 comments.php:70
+msgid "Comment navigation"
+msgstr "கருத்து வழிசெலுத்தல்"
+
+#. translators: %s: Category title.
+#: category.php:23
+msgid "Category Archives: %s"
+msgstr "வகை  காப்புகள்: %s"
+
+#. translators: %s: Author display name.
+#: author.php:32
+msgid "All posts by %s"
+msgstr " %s ன் அனைத்து பதிவுகள்"
+
+#: archive.php:40 taxonomy-post_format.php:51
+msgid "Archives"
+msgstr "காப்பகங்கள்"
+
+#. translators: %s: Date.
+#: archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "வ"
+
+#. translators: %s: Date.
+#: archive.php:38
+msgid "Yearly Archives: %s"
+msgstr "வருடாந்திர தொகுப்புகள்: %s"
+
+#. translators: %s: Date.
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "வ"
+
+#. translators: %s: Date.
+#: archive.php:35
+msgid "Monthly Archives: %s"
+msgstr "மாதாந்திர காப்புகள்:%s"
+
+#. translators: %s: Date.
+#: archive.php:32
+msgid "Daily Archives: %s"
+msgstr "தினசரி  காப்புகள்:%s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr " இந்த இடத்தில் எதுவும் காணப்படவில்லை போல் தெரிகிறது. தேட முயற்சிக்கலாமா?"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "கிடைக்கவில்லை"
+
+#. Author URI of the theme
+#: footer.php:26
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "வேர்ட்பிரஸ் குழு"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyfourteen/"
+msgstr "https://wordpress.org/themes/twentyfourteen/"
