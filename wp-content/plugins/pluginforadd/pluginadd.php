@@ -1,6 +1,8 @@
+
 <?php
+
 /**
- * @package Akismet
+ * @package 
  */
 /*
 Plugin Name: Plugin for add
@@ -13,9 +15,8 @@ License: GPLv2 or later
 Text Domain: akismet
 */
 
-add_shortcode('hello_world','hello_world_function');
-function  hello_world_function ()
-{
-	return  "Hello world";
+add_shortcode( 'add_form', 'input_fields' ); 
+function input_fields() {
+    include_once("contactform.php");
 }
 ?>
