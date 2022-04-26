@@ -15,8 +15,13 @@ License: GPLv2 or later
 Text Domain: akismet
 */
 
-add_shortcode( 'add_form', 'input_fields' ); 
-function input_fields() {
+function my_form_shortcode() {
+    ob_start();
     include_once("contactform.php");
-}
+    return ob_get_clean();   
+} 
+add_shortcode( 'my_form_shortcode', 'my_form_shortcode' );
+
+//include_once("plugintable.php");
+//register_activation_hook(__FILE__,"plugin_table");
 ?>

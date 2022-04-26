@@ -11,7 +11,7 @@
  *
  * @package businessly
  */
-
+session_start();
 get_header(); ?>
 
 <div id="primary" class="featured-content content-area">

@@ -1,15 +1,14 @@
 <?php
 if($_POST){
-$databaseHost = 'localhost';
-$databaseName = 'wordpress';
-$databaseUsername = 'root';
-$databasePassword = '';
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
-
-$firstname=$_POST['fname'];
-$lastname=$_POST['lname'];
-$fathername=$_POST['fathername'];
-$result = mysqli_query($mysqli, "INSERT INTO `userdata`(`firstname`,`lastname`,`fathername`) VALUES('$firstname','$lastname','$fathername')");
+  $databaseHost = 'localhost';
+  $databaseName = 'wordpress';
+  $databaseUsername = 'root';
+  $databasePassword = '';
+  $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+  $firstname= $_POST['fname'];
+  $lastname= $_POST['lname'];
+  $fathername=$_POST['fathername'];
+  $result = mysqli_query($mysqli, "INSERT INTO `userdata`(`firstname`,`lastname`,`fathername`) VALUES('$firstname','$lastname','$fathername')");
 }
 
 ?>
