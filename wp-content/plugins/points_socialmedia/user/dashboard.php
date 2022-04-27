@@ -54,8 +54,48 @@ case ($points >=601):
   <div><a href='logout'>Logout</a></div>
   <center><div><h1><?= "Welcome ".$fname?></h1></div></center>
   <div><center><img class="user" src="<?php echo$pic1;?>"></center></div>
-  <form action="../admin/update.php" method="post" >
-  choose the name:	<select name="name">
+<?php 
+if(isset($_POST["name11"]))
+{
+$point = $_POST['point']; 
+//echo $point;
+//die();
+//echo $_SESSION["name"];
+//die();
+$name = $_SESSION["id"];
+//echo $name;
+//die();
+$rslt= mysqli_query($mysqli, "SELECT * FROM validate  WHERE id='$name'");
+$res= mysqli_fetch_assoc($rslt);
+$pnts=$res['creditpoints'];
+if($point > $pnts)
+{
+  echo "You dont have that much of points. so you are not allowed to send the points";
+  //echo $_SESSION["pntss"];
+  //die();
+}
+$fname = $_SESSION["name"];
+$name = $_POST['name11'];
+$point = $_POST['point'];
+//print_r($_SESSION);
+$t=time();
+$date=date("d-m-y");
+$rslt= mysqli_query($mysqli, "SELECT * FROM validate  WHERE id='$name'");
+$res= mysqli_fetch_assoc($rslt);
+$receivername=$res['name'];
+//echo $point;
+//echo $_SESSION["id"];
+//die();
+$result = mysqli_query($mysqli, "INSERT INTO `transactiondetails`(`senderid`,`sendername`,`receiverid`,`receivername`,`transactionpoints`,`date`,`time`) VALUES('".$_SESSION["id"]."','$fname','$name','$receivername','$point','$date','$t')");
+$result = mysqli_query($mysqli, "UPDATE validate SET creditpoints = $point + creditpoints WHERE id='$name'");
+$point = mysqli_query($mysqli, "UPDATE validate SET creditpoints =  creditpoints - $point WHERE id='".$_SESSION["id"]."'");
+//echo "<script>location.href = 'user-dashboard';</script>";
+}
+?>
+
+
+  <form action="" method="post" >
+  choose the name:	<select name="name11">
   <option>--select--</option>
 <?php 
   $result = mysqli_query($mysqli, "SELECT validate.id,validate.name,friends.sender,friends.receiver from validate left join friends on validate.id=friends.receiver where friends.sender='".$_SESSION["id"]."' AND friends.status = 1"); 
@@ -86,9 +126,36 @@ for ($i=50; $i <= $pnt; $i+=50)
   <center><div><?php if($pnt>0){?> <img src="<?php  echo $img; ?>"> </div></center>
   <center><div><b><?php echo $des; ?><?php } ?></b></div></center>
   </form>	
-  <form action='friendrequest' method="post">
+   <?php if(isset($_POST["receiver"])){
+   $a= $_SESSION['id'];
+   $b = $_REQUEST['receiver'];
+   $result = mysqli_query($mysqli, "SELECT * FROM validate WHERE id= '$a'"); 
+   $res = mysqli_fetch_assoc($result);
+if($b==$a)
+{
+   echo "you are not allowed to send friendrequst to yourself";
+   die();
+}
+   $rslt = mysqli_query($mysqli, "SELECT * FROM friends WHERE receiver='$b'AND sender='$a'");
+   $rees = mysqli_fetch_assoc($rslt) ;
+   if(empty($rees)){
+      $result = mysqli_query($mysqli, "INSERT INTO `friends`(`sender`,`receiver`) VALUES('$a','$b')");  
+   echo "<script>location.href = 'user-dashboard';</script>";
+   }else if($rees['status'] == 3 || $rees['status'] == 2){
+      $result = mysqli_query($mysqli, " UPDATE friends SET status=0 WHERE id='".$rees['id']."'");
+   echo "<script>location.href = 'user-dashboard';</script>";
+   }else{
+      echo "you already send friend request";
+      die();
+   }
+}
+
+
+?>
+  <form action='' method="post">
   choose name for send friendrequest:	<select name="receiver">
   <option>--select--</option>
+
 <?php
 //include_once("../db/connection.php"); 
   $result = mysqli_query($mysqli, "SELECT * FROM validate  where designation!='admin' AND name!='$fname'"); 
@@ -105,7 +172,7 @@ while($res = mysqli_fetch_assoc($result))
 while($ress = mysqli_fetch_assoc($ressult)) 
 {  
  ?>
-  <table><form action="acceptfriendrequest.php" method="post">
+  <table><form action="" method="post">
   <tr><td><?php echo $ress['name'] ."sends you a friendrequest" ?></td><td> <a href='acceptfriend?sender=<?= $ress['sender']?>&value=1'>accept</a></td><td> <a href='acceptfrien?sender=<?= $ress['sender']?>&value=2'>reject</a></td></form>  </tr></table>
 <?php
 }
